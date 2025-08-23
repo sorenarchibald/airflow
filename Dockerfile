@@ -48,7 +48,7 @@ ARG AIRFLOW_USER_HOME_DIR=/home/airflow
 # latest released version here
 ARG AIRFLOW_VERSION="3.0.4"
 
-ARG PYTHON_BASE_IMAGE="python:3.10-slim-bookworm"
+ARG PYTHON_BASE_IMAGE=python:3.14.0rc2-slim-bookworm
 
 
 # You can swap comments between those two args to test pip from the main version
